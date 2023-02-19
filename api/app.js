@@ -19,7 +19,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://clark:clarkjoseph@cluster0.nlj5tmh.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://*******:*******@cluster0.nlj5tmh.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => console.log("___________MongoDB Connected____________"))
   .catch((err) => console.log("MongoDB Failed to connect with " + err));
